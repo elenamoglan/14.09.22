@@ -115,6 +115,8 @@ def cifreDiferite(nr1, nr2):
 def prietene(nr1, nr2):
     if len(divizori(nr1)) == len(divizori(nr2)):
         return "PRIETENE"
+    else:
+        return "Numerele nu sunt prietene"
 
 
 print(f'{suma(nr1, nr2)}\n{produs(nr1, nr2)}\n{medie(nr1, nr2)}\n{maxDivizor()}\n{minMultiple()}\n{minim(nr1, nr2)}\n{maxim(nr1, nr2)}\n{sumaScrisa(nr1, nr2)}\n{produscris(nr1, nr2)}\n{divizoriComuni(nr1, nr2)}\n{multipliComuni(nr1, nr2)}\n{cifreComune(nr1, nr2)}\n{cifreDiferite(nr1, nr2)}\n{prietene(nr1, nr2)}')
